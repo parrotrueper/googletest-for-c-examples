@@ -1,0 +1,2437 @@
+{
+  "tests": 218,
+  "failures": 0,
+  "disabled": 0,
+  "errors": 0,
+  "timestamp": "2026-09-11T18:15:51Z",
+  "time": "0.001s",
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "strlen",
+      "tests": 5,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2026-09-11T18:15:51Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "Ret0NullPtr",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 122,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strlen"
+        },
+        {
+          "name": "Ret0NoNullTerm",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 127,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strlen"
+        },
+        {
+          "name": "Ret01stCharNullTerm",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 135,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strlen"
+        },
+        {
+          "name": "Ret0NullTermOutBounds",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 143,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strlen"
+        },
+        {
+          "name": "Ret12HelloWorld",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 148,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strlen"
+        }
+      ]
+    },
+    {
+      "name": "strcat",
+      "tests": 8,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2026-09-11T18:15:51Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "Ret0NullPtrOnSrc",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 155,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strcat"
+        },
+        {
+          "name": "Ret0NullPtrDest",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 162,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strcat"
+        },
+        {
+          "name": "Ret0ZeroDestSize",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 169,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strcat"
+        },
+        {
+          "name": "Append2emptySrcNdoesNotFit",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 177,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strcat"
+        },
+        {
+          "name": "Append2emptySrc",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 186,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strcat"
+        },
+        {
+          "name": "Append2nonEmptySrc",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 196,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strcat"
+        },
+        {
+          "name": "DestSize1",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 473,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strcat"
+        },
+        {
+          "name": "SrcNotNullTerminated",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 481,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strcat"
+        }
+      ]
+    },
+    {
+      "name": "itoa",
+      "tests": 5,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2026-09-11T18:15:51Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "Ret0NullPtrDest",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 209,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "itoa"
+        },
+        {
+          "name": "Ret0bufSz0",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 214,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "itoa"
+        },
+        {
+          "name": "Ret0buf2small",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 220,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "itoa"
+        },
+        {
+          "name": "ConvNums",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 228,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "itoa"
+        },
+        {
+          "name": "Ret0WhenDestTooSmallForPadding",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 255,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "itoa"
+        }
+      ]
+    },
+    {
+      "name": "utoa",
+      "tests": 5,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2026-09-11T18:15:51Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "Ret0NullPtrDest",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 266,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "utoa"
+        },
+        {
+          "name": "Ret0bufSz0",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 271,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "utoa"
+        },
+        {
+          "name": "Ret0buf2small",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 277,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "utoa"
+        },
+        {
+          "name": "ConvNums",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 285,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "utoa"
+        },
+        {
+          "name": "Ret0WhenDestTooSmallForPadding",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 300,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "utoa"
+        }
+      ]
+    },
+    {
+      "name": "m_printf",
+      "tests": 51,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2026-09-11T18:15:51Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "SnprintfBasic",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 309,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "SnprintfOverflow",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 319,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "PrintfCallback",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 339,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "CustomSnprintfBasic",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 18,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfWithNumPadding",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 30,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfHexZeroValue",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 40,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfPointerHexLetters",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 49,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfLongZeroPad",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 58,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfLongPositiveZeroPad",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 67,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfLongMinValue",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 76,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfCharAndPercent",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 85,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfPointerNull",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 94,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfBufferExactFit",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 103,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfEmptyFormat",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 112,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfMinWidthWithoutZeroPadIsIgnored",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 121,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfHexMaxValue",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 130,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfFloatZero",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 139,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfStringWithWidthNotSupported",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 149,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfMissingParameterKeepsSpacing",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 158,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfNoArgFormat",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 167,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfUnknownSpecifierAfterPercent",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 176,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfUnsupportedLongModifier",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 185,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfNullDestPreservesNoWrite",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 194,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfPercentOnly",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 203,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfFloatScientific",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 212,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfMultipleSpecifiers",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 222,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfPointerLarge",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 232,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfLongNoZeroPad",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 241,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfS32ZeroPadNoPadding",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 250,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfU32ZeroPadZeroValue",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 259,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfEmptyStringParameter",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 268,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfIntAndHexMaxValues",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 277,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfTenParameters",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 287,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfStringTruncates",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 298,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfFloatNegative",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 307,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfS32ZeroPadZeroValue",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 317,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfFormatNull",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 326,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfTrailingPercent",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 337,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfInvalidLongSpecifier",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 346,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfZeroDestinationSize",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 355,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfNullStringParameter",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 364,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfUnknownSpecifier",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 373,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfMissingParameter",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 382,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "printfNullFormat",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 391,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfNullDest",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 396,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "CustomSnprintfOverflow",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 404,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "snprintfBufferOverflowTruncates",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 413,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "CustomPrintfCallback",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 422,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "PrintfZeroParameters",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 435,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "SnprintfPointerAndLong",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 448,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        },
+        {
+          "name": "SnprintfAliasWrapper",
+          "file": "\/workspace\/lib\/common\/test\/test_m_printf.cpp",
+          "line": 458,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "m_printf"
+        }
+      ]
+    },
+    {
+      "name": "ftoa",
+      "tests": 9,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2026-09-11T18:15:51Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "Ret0NullPtrDest",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 376,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "ftoa"
+        },
+        {
+          "name": "Ret0bufSz0",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 381,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "ftoa"
+        },
+        {
+          "name": "Ret0buf2small",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 387,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "ftoa"
+        },
+        {
+          "name": "ConvIfPrecGtr0",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 395,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "ftoa"
+        },
+        {
+          "name": "MaxPrec10f",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 410,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "ftoa"
+        },
+        {
+          "name": "MinPrec1f",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 414,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "ftoa"
+        },
+        {
+          "name": "MinPrec6f",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 419,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "ftoa"
+        },
+        {
+          "name": "PrecisionGreaterThan10",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 488,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "ftoa"
+        },
+        {
+          "name": "BufferExactly23",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 498,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "ftoa"
+        }
+      ]
+    },
+    {
+      "name": "strstr",
+      "tests": 10,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2026-09-11T18:15:51Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "BadParams",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 425,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strstr"
+        },
+        {
+          "name": "EqualStrs",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 435,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strstr"
+        },
+        {
+          "name": "ArinBar",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 443,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strstr"
+        },
+        {
+          "name": "IsFound",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 451,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strstr"
+        },
+        {
+          "name": "IsNotFound",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 465,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strstr"
+        },
+        {
+          "name": "StrszLessThanSublen",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 508,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strstr"
+        },
+        {
+          "name": "StrszZero",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 515,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strstr"
+        },
+        {
+          "name": "SublenZero",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 522,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strstr"
+        },
+        {
+          "name": "SubstringAtEnd",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 529,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strstr"
+        },
+        {
+          "name": "SubstringNotFound",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 536,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strstr"
+        }
+      ]
+    },
+    {
+      "name": "strcmp",
+      "tests": 22,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2026-09-11T18:15:51Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "BothNullPtr",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 546,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strcmp"
+        },
+        {
+          "name": "FirstNullPtr",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 551,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strcmp"
+        },
+        {
+          "name": "SecondNullPtr",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 557,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strcmp"
+        },
+        {
+          "name": "BothEmptyStrings",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 563,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strcmp"
+        },
+        {
+          "name": "EqualStrings",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 570,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strcmp"
+        },
+        {
+          "name": "SameStringToSelf",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 577,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strcmp"
+        },
+        {
+          "name": "DifferentFirstChar",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 583,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strcmp"
+        },
+        {
+          "name": "DifferentMiddleChar",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 590,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strcmp"
+        },
+        {
+          "name": "DifferentLastChar",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 597,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strcmp"
+        },
+        {
+          "name": "SamePrefixDifferentLength",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 604,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strcmp"
+        },
+        {
+          "name": "ZeroSize",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 611,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strcmp"
+        },
+        {
+          "name": "SizeOneMatch",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 618,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strcmp"
+        },
+        {
+          "name": "SizeOneMismatch",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 625,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strcmp"
+        },
+        {
+          "name": "SizeLargerThanString",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 632,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strcmp"
+        },
+        {
+          "name": "WithNumbers",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 639,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strcmp"
+        },
+        {
+          "name": "NumbersMismatch",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 646,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strcmp"
+        },
+        {
+          "name": "SpecialCharacters",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 653,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strcmp"
+        },
+        {
+          "name": "CaseSensitive",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 660,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strcmp"
+        },
+        {
+          "name": "WhitespaceCharacters",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 667,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strcmp"
+        },
+        {
+          "name": "WhitespaceMismatch",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 674,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strcmp"
+        },
+        {
+          "name": "PartialCompareWithinSize",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 681,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strcmp"
+        },
+        {
+          "name": "PartialCompareWithinSizeMatch",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 690,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "strcmp"
+        }
+      ]
+    },
+    {
+      "name": "utoa8Hex",
+      "tests": 4,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2026-09-11T18:15:51Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "Ret0NullPtrDest",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 700,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "utoa8Hex"
+        },
+        {
+          "name": "Ret0bufSz0",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 704,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "utoa8Hex"
+        },
+        {
+          "name": "Ret0buf2small",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 709,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "utoa8Hex"
+        },
+        {
+          "name": "ConvNums",
+          "file": "\/workspace\/lib\/common\/test\/test_mString.cpp",
+          "line": 716,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "utoa8Hex"
+        }
+      ]
+    },
+    {
+      "name": "matoiTest",
+      "tests": 5,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2026-09-11T18:15:51Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "NullStringFails",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 44,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiTest"
+        },
+        {
+          "name": "NullOutputPointerFails",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 50,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiTest"
+        },
+        {
+          "name": "ZeroLengthFails",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 56,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiTest"
+        },
+        {
+          "name": "LeadingPlusSignFails",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 63,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiTest"
+        },
+        {
+          "name": "ShortLengthParsesPrefix",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 70,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiTest"
+        }
+      ]
+    },
+    {
+      "name": "Queues",
+      "tests": 16,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2026-09-11T18:15:51Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "initialise_null_instance",
+          "file": "\/workspace\/lib\/common\/test\/test_queues.cpp",
+          "line": 11,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "Queues"
+        },
+        {
+          "name": "initialise_null_buffer",
+          "file": "\/workspace\/lib\/common\/test\/test_queues.cpp",
+          "line": 17,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "Queues"
+        },
+        {
+          "name": "initialise_zero_length",
+          "file": "\/workspace\/lib\/common\/test\/test_queues.cpp",
+          "line": 23,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "Queues"
+        },
+        {
+          "name": "initialise_valid",
+          "file": "\/workspace\/lib\/common\/test\/test_queues.cpp",
+          "line": 30,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "Queues"
+        },
+        {
+          "name": "pushByte_valid",
+          "file": "\/workspace\/lib\/common\/test\/test_queues.cpp",
+          "line": 62,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "Queues"
+        },
+        {
+          "name": "pushData_valid",
+          "file": "\/workspace\/lib\/common\/test\/test_queues.cpp",
+          "line": 82,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "Queues"
+        },
+        {
+          "name": "popData_valid",
+          "file": "\/workspace\/lib\/common\/test\/test_queues.cpp",
+          "line": 103,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "Queues"
+        },
+        {
+          "name": "popByte_valid",
+          "file": "\/workspace\/lib\/common\/test\/test_queues.cpp",
+          "line": 132,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "Queues"
+        },
+        {
+          "name": "isEmpty_valid",
+          "file": "\/workspace\/lib\/common\/test\/test_queues.cpp",
+          "line": 157,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "Queues"
+        },
+        {
+          "name": "isFull_valid",
+          "file": "\/workspace\/lib\/common\/test\/test_queues.cpp",
+          "line": 185,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "Queues"
+        },
+        {
+          "name": "getNumBytesPending_valid",
+          "file": "\/workspace\/lib\/common\/test\/test_queues.cpp",
+          "line": 216,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "Queues"
+        },
+        {
+          "name": "getNumBytesPending_wrap_around",
+          "file": "\/workspace\/lib\/common\/test\/test_queues.cpp",
+          "line": 245,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "Queues"
+        },
+        {
+          "name": "wrap_around_push_and_pop",
+          "file": "\/workspace\/lib\/common\/test\/test_queues.cpp",
+          "line": 278,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "Queues"
+        },
+        {
+          "name": "pushData_too_large",
+          "file": "\/workspace\/lib\/common\/test\/test_queues.cpp",
+          "line": 315,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "Queues"
+        },
+        {
+          "name": "popData_partial_and_null",
+          "file": "\/workspace\/lib\/common\/test\/test_queues.cpp",
+          "line": 328,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "Queues"
+        },
+        {
+          "name": "pushByte_and_pushData_null_instance",
+          "file": "\/workspace\/lib\/common\/test\/test_queues.cpp",
+          "line": 355,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "Queues"
+        }
+      ]
+    },
+    {
+      "name": "TestQueues",
+      "tests": 2,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2026-09-11T18:15:51Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "queues_reset_valid",
+          "file": "\/workspace\/lib\/common\/test\/test_queues.cpp",
+          "line": 40,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "TestQueues"
+        },
+        {
+          "name": "queues_reset_null_instance",
+          "file": "\/workspace\/lib\/common\/test\/test_queues.cpp",
+          "line": 365,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "TestQueues"
+        }
+      ]
+    },
+    {
+      "name": "testUtilDevDebug",
+      "tests": 4,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2026-09-11T18:15:51Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "AssertsOnFalse",
+          "file": "\/workspace\/lib\/common\/test\/test_utilDevDebugFull.cpp",
+          "line": 55,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "testUtilDevDebug"
+        },
+        {
+          "name": "AssertHandlingNoCallbacks",
+          "file": "\/workspace\/lib\/common\/test\/test_utilDevDebugFull.cpp",
+          "line": 65,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "testUtilDevDebug"
+        },
+        {
+          "name": "AssertHandlingWithCallback",
+          "file": "\/workspace\/lib\/common\/test\/test_utilDevDebugFull.cpp",
+          "line": 76,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "testUtilDevDebug"
+        },
+        {
+          "name": "ErrorHandler",
+          "file": "\/workspace\/lib\/common\/test\/test_utilDevDebugFull.cpp",
+          "line": 94,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "testUtilDevDebug"
+        }
+      ]
+    },
+    {
+      "name": "GetBytesTests",
+      "tests": 29,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2026-09-11T18:15:51Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "U16HighLowBytes",
+          "file": "\/workspace\/lib\/common\/test\/test_getBytes.cpp",
+          "line": 10,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "GetBytesTests"
+        },
+        {
+          "name": "S16HighLowBytes",
+          "file": "\/workspace\/lib\/common\/test\/test_getBytes.cpp",
+          "line": 21,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "GetBytesTests"
+        },
+        {
+          "name": "BytesToU16BigEndian",
+          "file": "\/workspace\/lib\/common\/test\/test_getBytes.cpp",
+          "line": 32,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "GetBytesTests"
+        },
+        {
+          "name": "BytesToU16LittleEndian",
+          "file": "\/workspace\/lib\/common\/test\/test_getBytes.cpp",
+          "line": 41,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "GetBytesTests"
+        },
+        {
+          "name": "BytesToS16LittleEndian",
+          "file": "\/workspace\/lib\/common\/test\/test_getBytes.cpp",
+          "line": 50,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "GetBytesTests"
+        },
+        {
+          "name": "BytesToS16BigEndianSigned",
+          "file": "\/workspace\/lib\/common\/test\/test_getBytes.cpp",
+          "line": 59,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "GetBytesTests"
+        },
+        {
+          "name": "I32ByteExtraction",
+          "file": "\/workspace\/lib\/common\/test\/test_getBytes.cpp",
+          "line": 71,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "GetBytesTests"
+        },
+        {
+          "name": "I32NegativeValueBytes",
+          "file": "\/workspace\/lib\/common\/test\/test_getBytes.cpp",
+          "line": 80,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "GetBytesTests"
+        },
+        {
+          "name": "U32ToBytesLittleEndian",
+          "file": "\/workspace\/lib\/common\/test\/test_getBytes.cpp",
+          "line": 89,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "GetBytesTests"
+        },
+        {
+          "name": "S32ToBytesLittleEndian",
+          "file": "\/workspace\/lib\/common\/test\/test_getBytes.cpp",
+          "line": 100,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "GetBytesTests"
+        },
+        {
+          "name": "S32ToBytesLittleEndianNegative",
+          "file": "\/workspace\/lib\/common\/test\/test_getBytes.cpp",
+          "line": 113,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "GetBytesTests"
+        },
+        {
+          "name": "U16ToBytesLittleEndian",
+          "file": "\/workspace\/lib\/common\/test\/test_getBytes.cpp",
+          "line": 126,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "GetBytesTests"
+        },
+        {
+          "name": "S16ToBytesLittleEndian",
+          "file": "\/workspace\/lib\/common\/test\/test_getBytes.cpp",
+          "line": 133,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "GetBytesTests"
+        },
+        {
+          "name": "U16LsbMsbLittleEndian",
+          "file": "\/workspace\/lib\/common\/test\/test_getBytes.cpp",
+          "line": 141,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "GetBytesTests"
+        },
+        {
+          "name": "S16LsbMsbLittleEndian",
+          "file": "\/workspace\/lib\/common\/test\/test_getBytes.cpp",
+          "line": 149,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "GetBytesTests"
+        },
+        {
+          "name": "encodeS16ToBytesLittleEndian",
+          "file": "\/workspace\/lib\/common\/test\/test_getBytes.cpp",
+          "line": 157,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "GetBytesTests"
+        },
+        {
+          "name": "encodeS16ToBytesLittleEndianNegative",
+          "file": "\/workspace\/lib\/common\/test\/test_getBytes.cpp",
+          "line": 168,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "GetBytesTests"
+        },
+        {
+          "name": "encodeS16ToBytesLittleEndianNullptr",
+          "file": "\/workspace\/lib\/common\/test\/test_getBytes.cpp",
+          "line": 179,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "GetBytesTests"
+        },
+        {
+          "name": "encodeS16ToBytesLittleEndianNullLowByte",
+          "file": "\/workspace\/lib\/common\/test\/test_getBytes.cpp",
+          "line": 187,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "GetBytesTests"
+        },
+        {
+          "name": "encodeS16ToBytesLittleEndianNullHighByte",
+          "file": "\/workspace\/lib\/common\/test\/test_getBytes.cpp",
+          "line": 198,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "GetBytesTests"
+        },
+        {
+          "name": "encodeS16ToBytesLittleEndianNullHighByteNegative",
+          "file": "\/workspace\/lib\/common\/test\/test_getBytes.cpp",
+          "line": 208,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "GetBytesTests"
+        },
+        {
+          "name": "DecodeU16Le",
+          "file": "\/workspace\/lib\/common\/test\/test_getBytes.cpp",
+          "line": 219,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "GetBytesTests"
+        },
+        {
+          "name": "DecodeS16Le",
+          "file": "\/workspace\/lib\/common\/test\/test_getBytes.cpp",
+          "line": 231,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "GetBytesTests"
+        },
+        {
+          "name": "BytesToU32LittleEndian",
+          "file": "\/workspace\/lib\/common\/test\/test_getBytes.cpp",
+          "line": 242,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "GetBytesTests"
+        },
+        {
+          "name": "BytesToS32LittleEndian",
+          "file": "\/workspace\/lib\/common\/test\/test_getBytes.cpp",
+          "line": 249,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "GetBytesTests"
+        },
+        {
+          "name": "EncodeU16Le",
+          "file": "\/workspace\/lib\/common\/test\/test_getBytes.cpp",
+          "line": 256,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "GetBytesTests"
+        },
+        {
+          "name": "U64ToBytesLittleEndian",
+          "file": "\/workspace\/lib\/common\/test\/test_getBytes.cpp",
+          "line": 269,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "GetBytesTests"
+        },
+        {
+          "name": "S64ToBytesLittleEndian",
+          "file": "\/workspace\/lib\/common\/test\/test_getBytes.cpp",
+          "line": 287,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "GetBytesTests"
+        },
+        {
+          "name": "S64ToBytesLittleEndianNegative",
+          "file": "\/workspace\/lib\/common\/test\/test_getBytes.cpp",
+          "line": 303,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "GetBytesTests"
+        }
+      ]
+    },
+    {
+      "name": "matoiTests\/matoiTestFixture",
+      "tests": 10,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2026-09-11T18:15:51Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "matoiTest\/0",
+          "value_param": "(0x55f84fcea6fa, '\\x3' (3), 123, true)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 13,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiTests\/matoiTestFixture"
+        },
+        {
+          "name": "matoiTest\/1",
+          "value_param": "(0x55f84fcea6f5, '\\x4' (4), -456, true)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 13,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiTests\/matoiTestFixture"
+        },
+        {
+          "name": "matoiTest\/2",
+          "value_param": "(0x55f84fcea6f3, '\\x1' (1), 0, true)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 13,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiTests\/matoiTestFixture"
+        },
+        {
+          "name": "matoiTest\/3",
+          "value_param": "(0x55f84fcea6ef, '\\x3' (3), 0, false)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 13,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiTests\/matoiTestFixture"
+        },
+        {
+          "name": "matoiTest\/4",
+          "value_param": "(0x55f84fcea6eb, '\\x3' (3), 0, false)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 13,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiTests\/matoiTestFixture"
+        },
+        {
+          "name": "matoiTest\/5",
+          "value_param": "(0x55f84fcea618, '\\0', 0, false)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 13,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiTests\/matoiTestFixture"
+        },
+        {
+          "name": "matoiTest\/6",
+          "value_param": "(0x55f84fcea6e0, '\\n' (10, 0xA), 2147483647, true)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 13,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiTests\/matoiTestFixture"
+        },
+        {
+          "name": "matoiTest\/7",
+          "value_param": "(0x55f84fcea6d4, '\\v' (11, 0xB), -2147483648, true)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 13,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiTests\/matoiTestFixture"
+        },
+        {
+          "name": "matoiTest\/8",
+          "value_param": "(0x55f84fcea6c9, '\\n' (10, 0xA), 0, false)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 13,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiTests\/matoiTestFixture"
+        },
+        {
+          "name": "matoiTest\/9",
+          "value_param": "(0x55f84fcea6bd, '\\v' (11, 0xB), 0, false)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 13,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiTests\/matoiTestFixture"
+        }
+      ]
+    },
+    {
+      "name": "matoiU16Tests\/matoiU16TestFixture",
+      "tests": 11,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2026-09-11T18:15:51Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "matoiU16Test\/0",
+          "value_param": "(0x55f84fcea6fa, '\\x3' (3), 123, true)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 83,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiU16Tests\/matoiU16TestFixture"
+        },
+        {
+          "name": "matoiU16Test\/1",
+          "value_param": "(0x55f84fcea6f3, '\\x1' (1), 0, true)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 83,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiU16Tests\/matoiU16TestFixture"
+        },
+        {
+          "name": "matoiU16Test\/2",
+          "value_param": "(0x55f84fcea7c7, '\\x5' (5), 65535, true)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 83,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiU16Tests\/matoiU16TestFixture"
+        },
+        {
+          "name": "matoiU16Test\/3",
+          "value_param": "(0x55f84fcea7c1, '\\x5' (5), 0, false)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 83,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiU16Tests\/matoiU16TestFixture"
+        },
+        {
+          "name": "matoiU16Test\/4",
+          "value_param": "(0x55f84fcea6ef, '\\x3' (3), 0, false)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 83,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiU16Tests\/matoiU16TestFixture"
+        },
+        {
+          "name": "matoiU16Test\/5",
+          "value_param": "(0x55f84fcea6eb, '\\x3' (3), 0, false)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 83,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiU16Tests\/matoiU16TestFixture"
+        },
+        {
+          "name": "matoiU16Test\/6",
+          "value_param": "(0x55f84fcea618, '\\0', 0, false)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 83,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiU16Tests\/matoiU16TestFixture"
+        },
+        {
+          "name": "matoiU16Test\/7",
+          "value_param": "(0x55f84fcea7be, '\\x2' (2), 0, false)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 83,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiU16Tests\/matoiU16TestFixture"
+        },
+        {
+          "name": "matoiU16Test\/8",
+          "value_param": "(0x55f84fcea7b9, '\\x4' (4), 0, false)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 83,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiU16Tests\/matoiU16TestFixture"
+        },
+        {
+          "name": "matoiU16Test\/9",
+          "value_param": "(0x55f84fcea7b4, '\\x4' (4), 0, false)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 83,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiU16Tests\/matoiU16TestFixture"
+        },
+        {
+          "name": "matoiU16Test\/10",
+          "value_param": "(0x55f84fcea7af, '\\x4' (4), 0, false)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 83,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiU16Tests\/matoiU16TestFixture"
+        }
+      ]
+    },
+    {
+      "name": "matoiU32Tests\/matoiU32TestFixture",
+      "tests": 11,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2026-09-11T18:15:51Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "matoiU32Test\/0",
+          "value_param": "(0x55f84fcea6fa, '\\x3' (3), 123, true)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 122,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiU32Tests\/matoiU32TestFixture"
+        },
+        {
+          "name": "matoiU32Test\/1",
+          "value_param": "(0x55f84fcea6f3, '\\x1' (1), 0, true)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 122,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiU32Tests\/matoiU32TestFixture"
+        },
+        {
+          "name": "matoiU32Test\/2",
+          "value_param": "(0x55f84fcea7f9, '\\n' (10, 0xA), 4294967295, true)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 122,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiU32Tests\/matoiU32TestFixture"
+        },
+        {
+          "name": "matoiU32Test\/3",
+          "value_param": "(0x55f84fcea7ee, '\\n' (10, 0xA), 0, false)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 122,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiU32Tests\/matoiU32TestFixture"
+        },
+        {
+          "name": "matoiU32Test\/4",
+          "value_param": "(0x55f84fcea6ef, '\\x3' (3), 0, false)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 122,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiU32Tests\/matoiU32TestFixture"
+        },
+        {
+          "name": "matoiU32Test\/5",
+          "value_param": "(0x55f84fcea6eb, '\\x3' (3), 0, false)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 122,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiU32Tests\/matoiU32TestFixture"
+        },
+        {
+          "name": "matoiU32Test\/6",
+          "value_param": "(0x55f84fcea618, '\\0', 0, false)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 122,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiU32Tests\/matoiU32TestFixture"
+        },
+        {
+          "name": "matoiU32Test\/7",
+          "value_param": "(0x55f84fcea7be, '\\x2' (2), 0, false)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 122,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiU32Tests\/matoiU32TestFixture"
+        },
+        {
+          "name": "matoiU32Test\/8",
+          "value_param": "(0x55f84fcea7b9, '\\x4' (4), 0, false)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 122,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiU32Tests\/matoiU32TestFixture"
+        },
+        {
+          "name": "matoiU32Test\/9",
+          "value_param": "(0x55f84fcea7b4, '\\x4' (4), 0, false)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 122,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiU32Tests\/matoiU32TestFixture"
+        },
+        {
+          "name": "matoiU32Test\/10",
+          "value_param": "(0x55f84fcea7af, '\\x4' (4), 0, false)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 122,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiU32Tests\/matoiU32TestFixture"
+        }
+      ]
+    },
+    {
+      "name": "matoiU8Tests\/matoiU8TestFixture",
+      "tests": 11,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2026-09-11T18:15:51Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "matoiU8Test\/0",
+          "value_param": "(0x55f84fcea6fa, '\\x3' (3), '{' (123, 0x7B), true)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 161,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiU8Tests\/matoiU8TestFixture"
+        },
+        {
+          "name": "matoiU8Test\/1",
+          "value_param": "(0x55f84fcea6f3, '\\x1' (1), '\\0', true)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 161,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiU8Tests\/matoiU8TestFixture"
+        },
+        {
+          "name": "matoiU8Test\/2",
+          "value_param": "(0x55f84fcea827, '\\x3' (3), '\\xFF' (255), true)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 161,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiU8Tests\/matoiU8TestFixture"
+        },
+        {
+          "name": "matoiU8Test\/3",
+          "value_param": "(0x55f84fcea823, '\\x3' (3), '\\0', false)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 161,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiU8Tests\/matoiU8TestFixture"
+        },
+        {
+          "name": "matoiU8Test\/4",
+          "value_param": "(0x55f84fcea6ef, '\\x3' (3), '\\0', false)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 161,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiU8Tests\/matoiU8TestFixture"
+        },
+        {
+          "name": "matoiU8Test\/5",
+          "value_param": "(0x55f84fcea6eb, '\\x3' (3), '\\0', false)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 161,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiU8Tests\/matoiU8TestFixture"
+        },
+        {
+          "name": "matoiU8Test\/6",
+          "value_param": "(0x55f84fcea618, '\\0', '\\0', false)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 161,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiU8Tests\/matoiU8TestFixture"
+        },
+        {
+          "name": "matoiU8Test\/7",
+          "value_param": "(0x55f84fcea7be, '\\x2' (2), '\\0', false)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 161,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiU8Tests\/matoiU8TestFixture"
+        },
+        {
+          "name": "matoiU8Test\/8",
+          "value_param": "(0x55f84fcea7b9, '\\x4' (4), '\\0', false)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 161,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiU8Tests\/matoiU8TestFixture"
+        },
+        {
+          "name": "matoiU8Test\/9",
+          "value_param": "(0x55f84fcea7b4, '\\x4' (4), '\\0', false)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 161,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiU8Tests\/matoiU8TestFixture"
+        },
+        {
+          "name": "matoiU8Test\/10",
+          "value_param": "(0x55f84fcea7af, '\\x4' (4), '\\0', false)",
+          "file": "\/workspace\/lib\/common\/test\/test_mStrToNum.cpp",
+          "line": 161,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-09-11T18:15:51Z",
+          "time": "0s",
+          "classname": "matoiU8Tests\/matoiU8TestFixture"
+        }
+      ]
+    }
+  ]
+}
+  }
+      ]
+    }
+  ]
+}

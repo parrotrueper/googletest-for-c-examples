@@ -1,0 +1,85 @@
+#!/usr/bin/env bash
+# Exit on error
+set -eEuo pipefail
+
+# shellcheck source=/dev/null
+. ci/functions.sh
+
+# Error handling
+trap 'err "ERROR at $0 line ${BASH_LINENO[0]}. Exiting."; exit 1' ERR
+
+# default argument values
+#------------------------
+rebuild="no"
+is_docker=$(is_in_container)
+
+# Help function
+#--------------
+# shellcheck disable=SC2317  # Don't warn about unreachable commands in this function
+usage(){
+   cat <<Endofmessage
+
+    Run the pipeline locally
+
+    Use: $0  [-h] [-f]
+
+    optional arguments:
+
+        -h display this help and exit
+
+        -f force a rebuild (if you've changed the Dockerfiles or Docker data)
+
+Endofmessage
+}
+
+# parse input arguments
+#----------------------
+ParseArgs(){
+    while [[ $# -gt 0 ]]; do
+        arg="$1"
+        case ${arg} in
+            -f) rebuild="yes" ; shift ;;
+            -h) usage ; exit 0  ; ;;
+            -*) usage
+                echo "unknown ${arg}"
+                exit 1
+                ;;
+            *)  usage
+                echo "unknown ${arg}"
+                exit 1
+                ;;
+        esac
+    done
+}
+
+RunPipeline(){
+
+    if [[ "${is_docker}" = "yes" ]]; then
+        info "inside container ..."
+        run ./scripts/run-pipeline.sh
+    else
+        info "on host..."
+        # make sure we are working with the latest image
+        run scripts/setup.sh
+
+        run docker compose --env-file .env -f ./ci/docker-compose.pipe.test.yml down
+        if [[ "${rebuild}" == "yes" ]]; then
+            run docker compose --env-file .env -f ./ci/docker-compose.pipe.test.yml up --build --force-recreate
+        else
+            run docker compose --env-file .env -f ./ci/docker-compose.pipe.test.yml up --build
+        fi
+        run docker compose --env-file .env -f ./ci/docker-compose.pipe.test.yml down
+    fi
+    # "Put Artefacts into Downloads" moved to run-pipeline.sh
+}
+
+# script starts here
+#===================
+main(){
+    ParseArgs "$@"
+    RunPipeline
+}
+
+main "$@"
+
+

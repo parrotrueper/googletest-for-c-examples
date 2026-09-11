@@ -1,0 +1,13 @@
+services:
+  sut_example:
+    image: parrotrueper/cmake-ninja-gtest:v1
+    tty: true
+    # volumes are host:container
+    volumes:
+      - ../:/workspace
+    working_dir: /workspace
+    env_file:
+      - ../.env
+    user: $USER_ID:$GROUP_ID
+    command: /bin/bash ./scripts/run-pipeline.sh
+

@@ -1,0 +1,28 @@
+{
+    "fw_dev_image": {
+        "base": "parrotrueper/cmake-ninja-gtest:v1",
+        "name": "dev_firmware_testing",
+        "file": "./dev-docker/Dockerfile",
+        "context": "./dev-docker",
+        "username": "rabbit"
+    },
+    "net_default": {
+        "broker": "192.168.1.100",
+        "port": 1883,
+        "device": "192.168.1.101"
+    },
+    "api_versions": {
+        "proj_name": "example",
+        "path": "./config",
+        "base_name": "autoVersion",
+        "c_file": "autoVersion.c",
+        "h_file": "autoVersion.h",
+        "struct_t": "st_auto_version_t",
+        "release": "0.0.1"
+    },
+    "id_prefix": {
+        "FOO_API_VERSION": "FOO-",
+        "BAR_API_VERSION": "BAR-"
+
+    }
+}

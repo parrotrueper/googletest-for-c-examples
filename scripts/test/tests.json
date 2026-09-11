@@ -1,0 +1,32 @@
+{
+    "serial": {
+        "example": {
+            "path": "./example/test",
+            "skip": "no",
+            "pytests": "no",
+            "version_path": "none"
+        },
+        "common": {
+            "path": "./lib/common/test",
+            "skip": "no",
+            "pytests": "no",
+            "version_path": "none"
+        },
+        "clock": {
+            "path": "./lib/clock/test",
+            "skip": "no",
+            "pytests": "no",
+            "version_path": "none"
+        }
+    },
+    "toolchain": {
+        "gcc_version": "/usr/bin/gcc-13",
+        "gpp_version": "/usr/bin/g++-13",
+        "gtest_options": {
+            "GTEST_COLOR": "yes",
+            "GTEST_OUTPUT_ON_FAILURE": 1,
+            "GTEST_OUTPUT": "json",
+            "GTEST_BREAK_ON_FAILURE": 69
+        }
+    }
+}

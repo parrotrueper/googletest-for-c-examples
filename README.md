@@ -32,10 +32,4 @@ C++ types.
 
 ## Expected results from a test run
 
-* 58 Tests in total. 8 Test suites.
-* 55 Tests should pass
-* 2 Tests should fail:
-  * HelloWorld - ArrayCmpEg6
-  * cEvaluate - DoTheseBitsMatch
-* 1 Tests is disabled: cEvaluate test - DISABLED_Pi32bitErrorToleranceFail
-* 1 Test is skipped: cEvaluate - Pi64bitErrorToleranceFail
+* All tests should pass
