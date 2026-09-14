@@ -125,7 +125,7 @@ static bool main_setup(void)
     DD_MAIN_TRACE("Value at address %p=%s\n", &value[0],
                   evaluate_showAddress(&value[0]));
     DD_MAIN_TRACE("Function calls=%d\n", counter_get());
-    DD_MAIN_TRACE("CRC-32=%d\n", calcCrc32_Calc(&value[0], sizeof(value)));
+    DD_MAIN_TRACE("CRC-32=%d\n", calcCrc32(&value[0], sizeof(value)));
     (void)value;
     DD_MAIN_TRACE("2023 %s leap year\n",
                   (util_DateTime_IsLeapYear(2023)) ? "is" : "is not");

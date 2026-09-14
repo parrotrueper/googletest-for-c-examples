@@ -100,27 +100,26 @@ set(BASE_SOURCES
     ${THESE_SOURCES}
 )
 
-# test sources for full assertion build
-set(SOURCES_FULL
+# common test sources for this module
+set(TEST_COMMON
     ${UTSRC_DIR}/test_mString.cpp
     ${UTSRC_DIR}/test_m_printf.cpp
     ${UTSRC_DIR}/test_mStrToNum.cpp
     ${UTSRC_DIR}/test_queues.cpp
-    ${UTSRC_DIR}/test_utilDevDebugFull.cpp
     ${UTSRC_DIR}/test_getBytes.cpp
     ${UTSUP_DIR}/utilUnitTestWrapper.cpp
+)
+# test sources for full assertion build
+set(SOURCES_FULL
+    ${TEST_COMMON}
+    ${UTSRC_DIR}/test_utilDevDebugFull.cpp
     ${BASE_SOURCES}
 )
 
 # test sources for tiny-assert build
 set(SOURCES_TINY
-    ${UTSRC_DIR}/test_mString.cpp
-    ${UTSRC_DIR}/test_m_printf.cpp
-    ${UTSRC_DIR}/test_mStrToNum.cpp
-    ${UTSRC_DIR}/test_queues.cpp
     ${UTSRC_DIR}/test_utilDevDebugTiny.cpp
-    ${UTSRC_DIR}/test_getBytes.cpp
-    ${UTSUP_DIR}/utilUnitTestWrapper.cpp
+    ${TEST_COMMON}
     ${BASE_SOURCES}
 )
 
