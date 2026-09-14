@@ -98,7 +98,7 @@ set(THESE_SOURCES
 
 # common library sources
 set(COMMON_SOURCES
-    ${THIS_REPO_ROOT_PATH}lib/common/src/utilCrc32.c
+    ${THIS_REPO_ROOT_PATH}lib/common/src/calcCrc32.c
     ${THIS_REPO_ROOT_PATH}lib/drivers/src/gpio.c
     ${THIS_REPO_ROOT_PATH}config/autoVersion.c
     ${THIS_REPO_ROOT_PATH}lib/common/src/mString.c
@@ -110,7 +110,7 @@ set(SOURCES
     # test files
     ${UTSRC_DIR}/test_counter.cpp
     ${UTSRC_DIR}/test_counterExample2.cpp
-    ${UTSRC_DIR}/test_crc32.cpp
+    ${UTSRC_DIR}/test_calcCrc32.cpp
     ${UTSRC_DIR}/test_evaluate.cpp
     ${UTSRC_DIR}/test_gpio.cpp
     ${UTSRC_DIR}/test_helloWorld.cpp

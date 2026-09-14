@@ -9,12 +9,12 @@
 #include <time.h>   /* nanosleep, timespec */
 
 #include "autoVersion.h" /* git versions of this module and our dependencies */
+#include "calcCrc32.h"
 #include "counter.h"
 #include "evaluate.h"
 #include "globaltypes.h" /* target types such as int */
 #include "helloWorld.h"
-#include "main.h" /* Our API */
-#include "utilCrc32.h"
+#include "main.h"         /* Our API */
 #include "utilDevDebug.h" /* Debug and diagnostics helper */
 
 static bool f_debug_enabled = false;
@@ -125,7 +125,7 @@ static bool main_setup(void)
     DD_MAIN_TRACE("Value at address %p=%s\n", &value[0],
                   evaluate_showAddress(&value[0]));
     DD_MAIN_TRACE("Function calls=%d\n", counter_get());
-    DD_MAIN_TRACE("CRC-32=%d\n", util_Crc32_Calc(&value[0], sizeof(value)));
+    DD_MAIN_TRACE("CRC-32=%d\n", calcCrc32_Calc(&value[0], sizeof(value)));
     (void)value;
     DD_MAIN_TRACE("2023 %s leap year\n",
                   (util_DateTime_IsLeapYear(2023)) ? "is" : "is not");

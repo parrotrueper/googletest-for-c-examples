@@ -1,9 +1,9 @@
 /**
- * \file util_Crc32.h
+ * \file calcCrc32.h
  * \brief Exposes interfaces that implement a CRC32 calculator
  */
-#ifndef UTIL_CRC32_H__
-#define UTIL_CRC32_H__
+#ifndef calcCrc32_H__
+#define calcCrc32_H__
 
 #include <stdint.h>
 #ifdef __cplusplus
@@ -15,9 +15,9 @@ extern "C" {
  * \param i_pData pointer to buffer data
  * \param in_length size of the buffer in bytes
  */
-uint32_t util_Crc32_Calc(const uint8_t* i_pData, uint32_t in_length);
+uint32_t calcCrc32_Calc(const uint8_t* i_pData, uint32_t in_length);
 
 #ifdef __cplusplus
 }
 #endif /*__cplusplus */
-#endif /* UTIL_CRC32_H__ */
+#endif /* calcCrc32_H__ */

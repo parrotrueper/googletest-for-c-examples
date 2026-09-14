@@ -51,7 +51,7 @@ main() {
         run_linters
 
         header "Generate version file"
-        run ./scripts/generate-version-file.sh
+        run ./scripts/auto-gen/generate-version-files.sh
         header "Run Off-Target Tests"
         ./scripts/run-tests.sh -t ALL
 
